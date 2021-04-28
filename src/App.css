@@ -1,0 +1,109 @@
+.App{
+  background:url(./fond.png);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.Menu{
+  display: flex;
+  margin: 50px 0 0;
+  align-items: center;
+}
+.logo-orion{
+  height: 50px;
+  width: auto;
+  display: flex;
+  margin-right: 200px;
+}
+ul{
+  list-style: none;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0; 
+}
+li{
+  list-style: none;
+  margin: 0 30px;
+  padding: 0 25px;
+}
+li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Segoe UI', sans-serif;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 60px;
+
+}
+li a:hover{
+  background-color: black;
+  color:#ee673c;
+  transition: ease-in 0.2s;
+}
+.intro{
+  margin: 250px 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: normal;
+}
+p{
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+p > span{
+  font-size: 62px;
+  color: #ee673c;
+}
+a.lien{
+  text-decoration: none;
+  color: white;
+  font-family: 'segoe ui', sans-serif;
+  font-size: 1.5em;
+  background-color: #ee673c;
+  border: #ee673c solid 1px;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 70px;
+}
+a.lien:hover{
+  color: #ee673c;
+  background-color: black;
+  border: black solid 1px;
+  transition: ease-in .2s;
+}
+.iconplay{
+  height: auto;
+  width: 600px;
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+}
+
+.rs-footer{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 5%;
+}
+.rs{
+  margin: 0 20px 0 0 ;
+  height: 25px;
+}
+
+
+
+
